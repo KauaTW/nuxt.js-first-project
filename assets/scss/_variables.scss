@@ -1,0 +1,9 @@
+$background: #e9ebde !default;
+
+$theme-colors: () !default;
+$theme-colors: map-merge(
+  (
+    'background': $background,
+  ),
+  $theme-colors,
+);
